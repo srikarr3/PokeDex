@@ -33,8 +33,8 @@ A modern, feature-rich Pokédex built with Next.js, TypeScript, and Tailwind CSS
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/pokedex-app.git
-cd pokedex-app
+git clone https://github.com/srikarr3/PokeDex.git
+cd PokeDex 
 ```
 
 2. Install dependencies:
@@ -80,14 +80,6 @@ yarn dev
 - Points system
 - Progress persistence
 
-## 🚀 Deployment
-
-This project is deployed on Vercel. To deploy your own version:
-
-1. Fork this repository
-2. Create a Vercel account
-3. Import your repository
-4. Deploy!
 
 ## 📝 License
 
@@ -99,21 +91,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Next.js](https://nextjs.org/) for the framework
 - [Tailwind CSS](https://tailwindcss.com/) for styling
 - [Framer Motion](https://www.framer.com/motion/) for animations
-
-## Favicon
-- The app uses a custom Pokéball SVG favicon (`public/favicon.svg`).
-- You can replace this with any SVG/PNG icon by updating the file and the `<link rel="icon" ... />` in `src/app/layout.tsx`.
-
-## Pokéball Loading Screen
-- The Pokéball loading spinner is shown during route transitions using Next.js's `loading.tsx` files.
-- You can customize the spinner in `src/components/LoadingSpinner.tsx`.
-
-## Performance Best Practices
-- **Pagination:** Only 20 Pokémon are fetched and rendered per page for fast load times.
-- **Lazy Loading:** Pokémon images use Next.js `<Image />` for automatic lazy loading and optimization.
-- **Hydration Warnings:** If you see hydration mismatch warnings about Grammarly or other browser extensions, they are harmless and can be ignored. For a clean test, use an incognito window with extensions disabled.
-
-## Customization
-- Change the background pattern in `public/pokeball-pattern.svg`.
-- Adjust the color palette in Tailwind config or component classes.
-- Swap out the favicon or loading spinner for your own style.
