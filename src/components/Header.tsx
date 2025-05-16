@@ -200,7 +200,7 @@ const Header: React.FC = () => {
         <nav className="container mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
           <motion.button
             onClick={() => handleNavigation('/')}
-            className="text-4xl font-comic font-bold text-gray-800 hover:opacity-80 transition-all duration-300 transform hover:scale-105 tracking-wider bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent"
+            className="text-4xl font-comic font-bold hover:opacity-80 transition-all duration-300 transform hover:scale-105 tracking-wider bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
