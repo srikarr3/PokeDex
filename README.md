@@ -2,6 +2,11 @@
 
 A modern, feature-rich Pokédex built with Next.js, TypeScript, and Tailwind CSS. Browse, search, and explore Pokémon with advanced features like team building, battle simulation, and achievements.
 
+## 🚀 Live Demo
+
+Check out the live app here: [https://poke-dex-inky-gamma.vercel.app/](https://poke-dex-inky-gamma.vercel.app/)
+
+
 ## 🌟 Features
 - Pokémon database with search and details
 - Team builder
